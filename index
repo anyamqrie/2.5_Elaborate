@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & CSS showcase</title>
+    <!-- Linking External Stylesheet in the css/ directory -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVIGATION ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+            
+            <!-- PURE CSS LOGO #1: Tech Gem Logo -->
+            <a href="#" class="brand-link">
+                <div class="css-logo-gem">
+                    <div class="gem-inner"></div>
+                </div>
+                <span class="brand-name">Apex<span>Design</span></span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#css-elements">CSS Showcase</a></li>
+                    <li><a href="https://github.com/your-username/your-repo-name" target="_blank" class="btn-github">GitHub Repo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Crafting Web Experiences with Pure CSS</h1>
+                <p>Welcome to my HTML/CSS wireframe implementation featuring custom CSS graphical elements built without external images.</p>
+                <a href="#css-elements" class="btn-primary">Explore Showcase</a>
+            </div>
+
+            <!-- PURE CSS LOGO / ELEMENT #2: Modern Cyber Shield Badge -->
+            <div class="hero-graphic">
+                <div class="css-shield-badge">
+                    <div class="shield-outer">
+                        <div class="shield-inner">
+                            <div class="shield-core"></div>
+                        </div>
+                    </div>
+                    <p class="badge-label">PURE CSS BADGE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FEATURES SECTION ================= -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Wireframe Features</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Semantic HTML5</h3>
+                    <p>Built with proper tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for clean document structure.</p>
+                </article>
+                <article class="card">
+                    <h3>External Stylesheet</h3>
+                    <p>All styling and animations are cleanly organized inside the <code>css/style.css</code> file.</p>
+                </article>
+                <article class="card">
+                    <h3>Pure CSS Graphics</h3>
+                    <p>Designed custom geometric logos and badges purely using CSS shapes, gradients, and transformations.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PURE CSS ELEMENTS SHOWCASE ================= -->
+    <section id="css-elements" class="css-showcase">
+        <div class="container">
+            <h2 class="section-title">Pure CSS Elements Detail</h2>
+            <div class="showcase-grid">
+                
+                <div class="showcase-box">
+                    <h3>Element 1: Gem Logo</h3>
+                    <div class="display-area">
+                        <!-- Pure CSS Logo #1 Display -->
+                        <div class="css-logo-gem large">
+                            <div class="gem-inner"></div>
+                        </div>
+                    </div>
+                    <p>Created using CSS 3D rotations, gradients, and pseudo-elements.</p>
+                </div>
+
+                <div class="showcase-box">
+                    <h3>Element 2: Cyber Shield</h3>
+                    <div class="display-area">
+                        <!-- Pure CSS Logo #2 Display -->
+                        <div class="css-shield-badge">
+                            <div class="shield-outer">
+                                <div class="shield-inner">
+                                    <div class="shield-core"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Created using CSS <code>clip-path</code> polygon shapes, glowing shadows, and animations.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 ApexDesign. Built for Learning Task 2.3.</p>
+            <p><a href="https://github.com/your-username/your-repo-name" target="_blank">View Project on GitHub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
